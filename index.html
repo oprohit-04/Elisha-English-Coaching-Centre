@@ -667,7 +667,7 @@ footer{background:var(--blue-dk);color:#fff}
           <textarea class="f-input" name="message" rows="3" placeholder="Any specific question..."></textarea>
         </div>
         <div class="f-err" id="fErr"></div>
-        <button class="btn btn-blue" type="submit" style="width:100%;justify-content:center;padding:14px;font-size:15px" id="submitBtn">📩 Enquiry Send Karein</button>
+        <button class="btn btn-blue" type="submit" style="width:100%;justify-content:center;padding:14px;font-size:15px" id="submitBtn">📩 Send Enquiry </button>
         <p class="f-note">🔒 Your information is safe. We never share your details.</p>
       </form>
       <div class="success-box" id="successBox">
@@ -713,7 +713,7 @@ footer{background:var(--blue-dk);color:#fff}
             <div class="map-ic-ring">📍</div>
             <div class="map-title">Google Maps</div>
             <div class="map-addr">Kamla College Road, Near Uchi Haweli, Amaha, Sidhi (M.P.)</div>
-            <div class="map-note">📍 Yahan Google Maps embed add karein</div>
+           
             <a href="https://maps.google.com/?q=Amaha,Sidhi,Madhya+Pradesh" target="_blank" class="btn btn-blue" style="font-size:13px;padding:10px 20px">🗺️ Open in Google Maps</a>
           </div>
           <div class="map-footer">📍 Amaha, Sidhi, Madhya Pradesh</div>
@@ -908,11 +908,11 @@ function toggleStatus(){isOpen=!isOpen;localStorage.setItem('coachingOpen',JSON.
 
 // ── VOCABULARY ───────────────────────────────────
 const DEF_V=[
-  {word:'Achieve',meaning:'Kisi goal ko paana',example:'Work hard to achieve your dreams.'},
-  {word:'Improve',meaning:'Behtar banana ya hona',example:'Practice helps students improve.'},
-  {word:'Diligent',meaning:'Mehnat karne wala',example:'A diligent student always succeeds.'},
-  {word:'Confident',meaning:'Khud par yakeen rakhna',example:'She was confident in her answers.'},
-  {word:'Persevere',meaning:'Mushkil mein bhi lagte rehna',example:'Persevere and you will succeed.'},
+  {word:'Achieve',meaning:'To successfully reach a goal',example:'Work hard to achieve your dreams.'},
+  {word:'Improve',meaning:'To become better',example:'Practice helps students improve.'},
+  {word:'Diligent',meaning:'Hard-working and careful',example:'A diligent student always succeeds.'},
+  {word:'Confident',meaning:'Feeling certain about yourself',example:'She was confident in her answers.'},
+  {word:'Persevere',meaning:'To keep going despite difficulty',example:'Persevere and you will succeed.'},
 ];
 let vocab=JSON.parse(localStorage.getItem('vocab')||'null')||DEF_V;
 let vi=0,vFl=false;
