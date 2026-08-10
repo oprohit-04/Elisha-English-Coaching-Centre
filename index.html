@@ -113,6 +113,43 @@ a{touch-action:manipulation}
 .mob-menu-body .divmenu{height:1px;background:var(--s100);margin:8px 0}
 .mob-menu-footer{padding:20px;display:flex;flex-direction:column;gap:10px;border-top:1px solid var(--s100)}
 .mob-menu-footer a{display:flex;align-items:center;justify-content:center;gap:8px;padding:14px;border-radius:12px;font-family:'Poppins',sans-serif;font-weight:700;font-size:15px}
+.mobile-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+}
+
+.mobile-logo-circle {
+    width: 58px;
+    height: 58px;
+    min-width: 58px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 2px solid #d4af37;
+}
+
+.mobile-logo-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.mobile-logo-text strong {
+    display: block;
+    font-size: 16px;
+}
+
+.mobile-logo-text small {
+    display: block;
+    font-size: 11px;
+    opacity: 0.8;
+}
 
 /* ─── HERO ─── */
 #home{min-height:100svh;background:linear-gradient(135deg,#0a1f42 0%,#1B4FD8 55%,#3B72F0 100%);display:flex;align-items:center;position:relative;overflow:hidden;padding:70px 20px 60px}
@@ -178,7 +215,13 @@ a{touch-action:manipulation}
 .cl-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .cl-item{font-size:13px;color:var(--s600);display:flex;align-items:center;gap:6px}
 .cl-item::before{content:"✓";color:#22c55e;font-weight:700}
-
+.about-logo {
+    width: 280px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
 @media(max-width:760px){.about-grid{grid-template-columns:1fr}}
 @media(max-width:480px){
   .float-card,.float-badge{display:none}
@@ -474,6 +517,16 @@ footer{background:var(--blue-dk);color:#fff}
         <div style="font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--blue)">Coaching Center</div>
       </div>
     </div>
+<div class="mobile-logo">
+    <div class="mobile-logo-circle">
+        <img src="logo.png" alt="Alisha English Coaching Centre">
+    </div>
+
+    <div class="mobile-logo-text">
+        <strong>Alisha English</strong>
+        <small>Coaching Center</small>
+    </div>
+</div>
     <button class="mob-menu-close" onclick="toggleMenu()">✕</button>
   </div>
   <div class="mob-menu-body">
@@ -500,6 +553,11 @@ footer{background:var(--blue-dk);color:#fff}
   <div class="hero-blob" style="width:350px;height:350px;top:45%;left:-140px"></div>
   <div class="hero-grid wrap">
     <div>
+<div class="logo-box">
+    <img src="logo.png"
+         alt="Alisha English Coaching Centre Logo"
+         class="about-logo">
+</div>
       <div class="status-pill">
         <div class="dot green" id="sDot"></div>
         <span class="status-text" id="sTxt">Coaching Open Today</span>
