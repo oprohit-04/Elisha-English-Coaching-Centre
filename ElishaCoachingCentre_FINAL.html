@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="description" content="Elisha English Coaching Centre – Quality English Education in Amaha, Sidhi M.P. by Vikas Sir. Spoken English, Grammar, TET, SSC, School Batches."/>
+<meta name="keywords" content="English coaching Sidhi, Elisha Coaching, Vikas Sir, spoken English Amaha, CTET coaching MP"/>
+<title>Elisha English Coaching Centre | Amaha, Sidhi (M.P.)</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;color:#1e293b;background:#fff;overflow-x:hidden}
+h1,h2,h3,h4{font-family:'Poppins',sans-serif}
+a{text-decoration:none;color:inherit}
+img{max-width:100%}
+button{touch-action:manipulation}
+a{touch-action:manipulation}
+
+:root{
+  --blue:#1B4FD8;--blue-lt:#3B72F0;--blue-dk:#0F2952;
+  --accent:#F59E0B;--surface:#EFF6FF;--surface-dk:#DBEAFE;
+  --s50:#f8fafc;--s100:#f1f5f9;--s200:#e2e8f0;
+  --s400:#94a3b8;--s500:#64748b;--s600:#475569;--s700:#334155;--s800:#1e293b;
+}
+
+/* ─── Utilities ─── */
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+.sec{padding:72px 20px}
+.sec-label{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--blue);font-family:'Poppins',sans-serif;display:block;margin-bottom:8px}
+.sec-title{font-size:clamp(22px,4vw,36px);font-weight:700;color:var(--blue-dk);line-height:1.25;margin-bottom:14px}
+.sec-sub{color:var(--s500);font-size:15px;line-height:1.7;max-width:580px;margin:0 auto}
+.text-center{text-align:center}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 26px;border-radius:10px;font-family:'Poppins',sans-serif;font-weight:600;font-size:14px;cursor:pointer;border:none;transition:.2s;touch-action:manipulation}
+.btn:active{transform:scale(.97)}
+.btn-blue{background:var(--blue);color:#fff;box-shadow:0 4px 14px rgba(27,79,216,.3)}
+.btn-blue:hover{background:var(--blue-lt)}
+.btn-gold{background:var(--accent);color:#fff;box-shadow:0 4px 14px rgba(245,158,11,.3)}
+.btn-ghost{border:2px solid #fff;color:#fff;background:transparent}
+.btn-ghost:hover{background:#fff;color:var(--blue)}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
+.reveal.on{opacity:1;transform:none}
+
+/* ─── MOBILE STICKY BOTTOM BAR ─── */
+.mob-bar{display:none;position:fixed;bottom:0;inset-inline:0;z-index:300;background:#fff;border-top:1.5px solid var(--s200);padding:10px 16px;gap:10px;box-shadow:0 -4px 20px rgba(0,0,0,.1)}
+.mob-bar a{flex:1;display:flex;align-items:center;justify-content:center;gap:7px;padding:13px 10px;border-radius:12px;font-family:'Poppins',sans-serif;font-weight:700;font-size:14px;transition:.2s}
+.mob-bar a:active{transform:scale(.96)}
+.mob-call{background:var(--blue);color:#fff}
+.mob-wa{background:#22c55e;color:#fff}
+@media(max-width:640px){
+  .mob-bar{display:flex}
+  body{padding-bottom:76px}
+  .wa-float{bottom:94px !important}
+}
+
+/* ─── NAVBAR ─── */
+#nav{position:fixed;inset-inline:0;top:0;z-index:200;transition:.3s;padding:0 16px}
+#nav.solid{background:rgba(255,255,255,.97);backdrop-filter:blur(14px);box-shadow:0 2px 16px rgba(0,0,0,.08)}
+.nav-in{max-width:1160px;margin:0 auto;height:60px;display:flex;align-items:center;justify-content:space-between}
+.logo{display:flex;align-items:center;gap:10px;cursor:pointer}
+.logo-orb{width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,.18);border:1.5px solid rgba(255,255,255,.5);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:16px;color:#fff;font-family:'Poppins',sans-serif;transition:.3s;flex-shrink:0}
+#nav.solid .logo-orb{background:var(--blue);border-color:var(--blue)}
+.logo-name{font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:#fff;line-height:1.1;transition:.3s}
+.logo-tag{font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.7);transition:.3s}
+#nav.solid .logo-name{color:var(--blue-dk)}
+#nav.solid .logo-tag{color:var(--blue)}
+.nav-links{display:flex;gap:2px;list-style:none}
+.nav-links a{padding:6px 10px;border-radius:8px;font-size:13px;font-weight:500;font-family:'Poppins',sans-serif;color:rgba(255,255,255,.9);transition:.2s}
+.nav-links a:hover{background:rgba(255,255,255,.2)}
+#nav.solid .nav-links a{color:var(--s700)}
+#nav.solid .nav-links a:hover{background:var(--surface);color:var(--blue)}
+.nav-enq{padding:8px 16px;font-size:13px}
+.nav-phone{font-size:13px;color:rgba(255,255,255,.8);transition:.3s;white-space:nowrap}
+#nav.solid .nav-phone{color:var(--s600)}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:6px;touch-action:manipulation}
+.hamburger span{width:22px;height:2px;background:#fff;border-radius:2px;transition:.3s;display:block}
+#nav.solid .hamburger span{background:var(--s700)}
+@media(max-width:860px){.nav-links,.nav-phone{display:none}.hamburger{display:flex}.nav-enq{display:none}}
+
+/* Mobile full-screen menu */
+.mob-menu{display:none;position:fixed;inset:0;background:#fff;z-index:199;flex-direction:column;overflow-y:auto}
+.mob-menu.open{display:flex}
+.mob-menu-top{padding:18px 20px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--s100)}
+.mob-menu-close{width:36px;height:36px;border-radius:50%;border:none;background:var(--s100);cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center;color:var(--s600)}
+.mob-menu-body{padding:16px 20px;flex:1}
+.mob-menu-body a{padding:15px 16px;font-family:'Poppins',sans-serif;font-weight:600;font-size:15px;color:var(--s700);border-radius:12px;display:flex;align-items:center;gap:12px;transition:.2s}
+.mob-menu-body a:hover,.mob-menu-body a:active{background:var(--surface);color:var(--blue)}
+.mob-menu-body .divmenu{height:1px;background:var(--s100);margin:8px 0}
+.mob-menu-footer{padding:20px;display:flex;flex-direction:column;gap:10px;border-top:1px solid var(--s100)}
+.mob-menu-footer a{display:flex;align-items:center;justify-content:center;gap:8px;padding:14px;border-radius:12px;font-family:'Poppins',sans-serif;font-weight:700;font-size:15px}
+
+/* ─── HERO ─── */
+#home{min-height:100svh;background:linear-gradient(135deg,#0a1f42 0%,#1B4FD8 55%,#3B72F0 100%);display:flex;align-items:center;position:relative;overflow:hidden;padding:70px 20px 60px}
+.hero-dots{position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.12) 1.5px,transparent 1.5px);background-size:38px 38px;pointer-events:none}
+.hero-blob{position:absolute;border-radius:50%;background:rgba(255,255,255,.05);pointer-events:none}
+.hero-grid{max-width:1160px;margin:0 auto;width:100%;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.hero-right{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.hstat{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:18px;padding:20px;backdrop-filter:blur(6px)}
+.hstat:nth-child(2),.hstat:nth-child(4){margin-top:26px}
+.hstat-icon{font-size:28px;margin-bottom:8px}
+.hstat-val{font-family:'Poppins',sans-serif;font-weight:700;font-size:24px;color:#fff;margin-bottom:3px}
+.hstat-label{font-size:11px;color:#93c5fd}
+.status-pill{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:6px 16px;margin-bottom:20px}
+.dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.dot.green{background:#4ade80;animation:pg 2s infinite}
+.dot.red{background:#f87171}
+@keyframes pg{0%,100%{box-shadow:0 0 0 0 rgba(74,222,128,.5)}50%{box-shadow:0 0 0 8px transparent}}
+.status-text{color:#fff;font-size:13px;font-weight:500}
+.hero-h1{font-size:clamp(36px,6vw,60px);font-weight:800;color:#fff;line-height:1.06;margin-bottom:14px}
+.hero-h1 span{color:var(--accent)}
+.hero-by{font-size:15px;color:#bfdbfe;margin-bottom:10px;font-family:'Poppins',sans-serif;font-weight:500}
+.hero-by b{color:var(--accent)}
+.hero-desc{font-size:15px;color:#93c5fd;line-height:1.75;margin-bottom:26px;max-width:480px}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:28px}
+.hero-badges{display:flex;gap:10px;flex-wrap:wrap}
+.hbadge{display:flex;align-items:center;gap:10px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:14px;padding:12px 14px}
+.hbadge-icon{font-size:18px}
+.hbadge-label{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#fff;margin-bottom:2px}
+.hbadge-val{font-size:12px;color:#bfdbfe}
+.hero-wave{position:absolute;bottom:0;inset-inline:0;line-height:0}
+
+@media(max-width:860px){.hero-grid{grid-template-columns:1fr}.hero-right{display:none}}
+@media(max-width:480px){
+  #home{padding:65px 16px 52px}
+  .hero-h1{font-size:34px}
+  .hero-desc{font-size:14px}
+  .hero-btns{flex-direction:column}
+  .hero-btns .btn{width:100%;justify-content:center;padding:14px}
+  .hero-badges{flex-direction:column;gap:8px}
+  .hbadge{padding:10px 14px}
+}
+
+/* ─── ABOUT ─── */
+#about{background:#fff}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;margin-top:44px}
+.about-img-box{position:relative}
+.logo-box{background:linear-gradient(135deg,var(--surface),var(--surface-dk));border-radius:20px;aspect-ratio:4/3;display:flex;flex-direction:column;align-items:center;justify-content:center;border:2px dashed rgba(27,79,216,.2)}
+.logo-ring{width:72px;height:72px;border-radius:50%;background:rgba(27,79,216,.1);display:flex;align-items:center;justify-content:center;margin-bottom:12px;font-family:'Poppins',sans-serif;font-size:30px;font-weight:800;color:var(--blue)}
+.logo-ph{font-family:'Poppins',sans-serif;font-weight:600;color:rgba(27,79,216,.4);font-size:13px}
+.logo-ph-sub{font-size:11px;color:var(--s400);margin-top:4px}
+.float-card{position:absolute;bottom:-16px;right:-16px;background:#fff;border-radius:14px;box-shadow:0 8px 28px rgba(0,0,0,.14);padding:14px 16px;border:1px solid var(--s100);max-width:175px}
+.float-stars{margin-bottom:5px;font-size:13px}
+.float-txt{font-family:'Poppins',sans-serif;font-weight:600;font-size:12px;color:var(--s700)}
+.float-by{font-size:11px;color:var(--s400);margin-top:3px}
+.float-badge{position:absolute;top:-12px;left:-12px;background:var(--blue);color:#fff;border-radius:10px;padding:5px 12px;font-size:11px;font-weight:600;font-family:'Poppins',sans-serif}
+.hi-item{display:flex;gap:13px;padding:13px;border-radius:14px;transition:.2s;margin-bottom:4px}
+.hi-item:hover{background:var(--surface)}
+.hi-icon{width:42px;height:42px;border-radius:12px;background:rgba(27,79,216,.08);display:flex;align-items:center;justify-content:center;font-size:19px;flex-shrink:0}
+.hi-title{font-family:'Poppins',sans-serif;font-weight:600;color:var(--s800);font-size:15px;margin-bottom:2px}
+.hi-desc{font-size:13px;color:var(--s500);line-height:1.55}
+.checklist{background:var(--surface);border-radius:14px;padding:16px;border:1px solid var(--surface-dk);margin-top:10px}
+.cl-title{font-size:11px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--blue-dk);margin-bottom:12px;font-family:'Poppins',sans-serif}
+.cl-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.cl-item{font-size:13px;color:var(--s600);display:flex;align-items:center;gap:6px}
+.cl-item::before{content:"✓";color:#22c55e;font-weight:700}
+
+@media(max-width:760px){.about-grid{grid-template-columns:1fr}}
+@media(max-width:480px){
+  .float-card,.float-badge{display:none}
+  .about-img-box{margin-bottom:8px}
+  .sec{padding:52px 16px}
+}
+
+/* ─── COURSES ─── */
+#courses{background:var(--s50)}
+.courses-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:44px}
+.c-card{border-radius:18px;overflow:hidden;background:#fff;box-shadow:0 4px 16px rgba(0,0,0,.07);border:1px solid var(--s100);transition:.3s;display:flex;flex-direction:column}
+.c-card:hover{transform:translateY(-3px);box-shadow:0 12px 36px rgba(0,0,0,.12)}
+.c-bar{height:4px}
+.c-body{padding:20px;flex:1;display:flex;flex-direction:column}
+.c-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px}
+.c-icon{font-size:32px}
+.c-badge{font-size:11px;background:rgba(27,79,216,.08);color:var(--blue);font-weight:700;padding:3px 9px;border-radius:50px;font-family:'Poppins',sans-serif}
+.c-title{font-family:'Poppins',sans-serif;font-size:15px;font-weight:700;color:var(--s800);margin-bottom:3px;line-height:1.35}
+.c-sub{font-size:11px;color:var(--blue);font-weight:600;margin-bottom:9px}
+.c-desc{font-size:13px;color:var(--s500);line-height:1.65;margin-bottom:12px;flex:1}
+.c-tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:12px}
+.c-tag{font-size:11px;background:var(--s100);color:var(--s600);padding:3px 9px;border-radius:50px}
+.c-link{font-size:13px;font-weight:600;color:var(--blue);display:flex;align-items:center;gap:4px;transition:.2s;font-family:'Poppins',sans-serif;margin-top:auto}
+.why-box{margin-top:44px;background:linear-gradient(135deg,var(--blue-dk),var(--blue));border-radius:22px;padding:36px;color:#fff;text-align:center}
+.why-box h3{font-size:20px;font-weight:700;margin-bottom:6px}
+.why-box p{color:#bfdbfe;font-size:13px;margin-bottom:26px}
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.why-item-icon{font-size:28px;margin-bottom:8px}
+.why-item-title{font-family:'Poppins',sans-serif;font-weight:600;font-size:14px;margin-bottom:3px}
+.why-item-desc{font-size:12px;color:#bfdbfe}
+
+@media(max-width:900px){.courses-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:540px){.courses-grid{grid-template-columns:1fr}.why-grid{grid-template-columns:repeat(2,1fr)}.why-box{padding:28px 20px}}
+
+/* ─── VOCABULARY ─── */
+#vocabulary{background:linear-gradient(135deg,var(--blue-dk),var(--blue),var(--blue-lt));padding:72px 16px;text-align:center}
+.vocab-pill{display:inline-flex;align-items:center;gap:7px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);border-radius:50px;padding:6px 16px;margin-bottom:14px;font-size:13px;color:#fff;font-weight:500}
+.vocab-title{font-size:clamp(20px,4vw,32px);font-weight:700;color:#fff;margin-bottom:6px}
+.vocab-hint{color:#93c5fd;font-size:13px;margin-bottom:32px}
+.fc-wrap{max-width:440px;width:100%;margin:0 auto 26px;height:200px;perspective:1000px;cursor:pointer;padding:0 4px}
+.fc{width:100%;height:100%;transform-style:preserve-3d;transition:transform .5s}
+.fc.flip{transform:rotateY(180deg)}
+.fc-face{position:absolute;inset:0;border-radius:20px;backface-visibility:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px}
+.fc-front{background:#fff}
+.fc-back{background:var(--blue-dk);border:2px solid rgba(255,255,255,.2);transform:rotateY(180deg)}
+.fc-label{font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;margin-bottom:10px}
+.fc-front .fc-label{color:rgba(27,79,216,.4)}
+.fc-back .fc-label{color:var(--accent)}
+.fc-word{font-family:'Poppins',sans-serif;font-size:clamp(26px,6vw,36px);font-weight:800;color:var(--blue);margin-bottom:6px}
+.fc-meaning{color:var(--s500);font-size:14px}
+.fc-tap{color:var(--s300,#cbd5e1);font-size:12px;margin-top:10px}
+.fc-example{font-family:'Poppins',sans-serif;font-weight:600;color:#fff;font-size:clamp(14px,3.5vw,17px);line-height:1.5;font-style:italic}
+.vocab-ctrl{display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:20px}
+.vbtn{width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.12);border:none;color:#fff;cursor:pointer;font-size:20px;display:flex;align-items:center;justify-content:center;transition:.2s;touch-action:manipulation}
+.vbtn:active{background:rgba(255,255,255,.3)}
+.v-dots{display:flex;gap:7px}
+.v-dot{width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.3);cursor:pointer;transition:.2s}
+.v-dot.on{background:#fff;transform:scale(1.3)}
+.v-words{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;max-width:520px;margin:0 auto;padding:0 8px}
+.v-word{padding:8px 16px;border-radius:12px;border:none;font-family:'Poppins',sans-serif;font-size:13px;font-weight:500;cursor:pointer;transition:.2s;touch-action:manipulation}
+.v-word.on{background:#fff;color:var(--blue);box-shadow:0 4px 14px rgba(0,0,0,.15);transform:scale(1.05)}
+.v-word:not(.on){background:rgba(255,255,255,.12);color:#fff}
+
+/* ─── TESTIMONIALS ─── */
+#testimonials{background:var(--s50)}
+.test-card{background:#fff;border-radius:24px;padding:40px;box-shadow:0 8px 36px rgba(0,0,0,.09);text-align:center;position:relative;overflow:hidden;margin-top:44px}
+.test-bigq{position:absolute;top:-8px;left:-8px;font-size:80px;color:rgba(27,79,216,.04);line-height:1;font-family:'Poppins',sans-serif;font-weight:800}
+.test-stars{display:flex;justify-content:center;gap:4px;font-size:20px;margin-bottom:16px}
+.test-text{font-size:clamp(14px,2.5vw,18px);color:var(--s600);line-height:1.75;font-style:italic;margin-bottom:20px;max-width:600px;margin-left:auto;margin-right:auto}
+.test-name{font-family:'Poppins',sans-serif;font-weight:700;font-size:16px;color:var(--s800);margin-bottom:3px}
+.test-role{font-size:13px;color:var(--blue);font-weight:500}
+.test-nav{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:22px;margin-bottom:28px}
+.tnav{width:40px;height:40px;border-radius:50%;border:2px solid var(--surface-dk);color:var(--blue);cursor:pointer;font-size:18px;background:#fff;transition:.2s;display:flex;align-items:center;justify-content:center;touch-action:manipulation}
+.tnav:active{background:var(--blue);color:#fff}
+.t-bar{display:flex;gap:6px}
+.t-bar-dot{height:8px;border-radius:50px;cursor:pointer;transition:.3s;background:var(--s200)}
+.t-bar-dot.on{width:26px;background:var(--blue)}
+.t-bar-dot:not(.on){width:8px}
+.t-mini{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.t-mini-card{padding:15px;border-radius:16px;border:1.5px solid var(--s100);cursor:pointer;transition:.2s;background:#fff}
+.t-mini-card.on{border-color:var(--blue);box-shadow:0 4px 20px rgba(27,79,216,.14)}
+.t-mini-stars{font-size:12px;margin-bottom:6px}
+.t-mini-text{font-size:12px;color:var(--s500);line-height:1.6;margin-bottom:8px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+.t-mini-name{font-family:'Poppins',sans-serif;font-weight:600;font-size:13px;color:var(--s800)}
+.t-mini-role{font-size:11px;color:var(--blue)}
+
+@media(max-width:640px){
+  .test-card{padding:28px 18px}
+  .t-mini{grid-template-columns:1fr;display:none}
+}
+
+/* ─── ENQUIRY ─── */
+#enquiry{background:var(--surface)}
+.enq-wrap{max-width:680px;margin:0 auto}
+.demo-tag{display:inline-flex;align-items:center;gap:6px;background:#dcfce7;color:#16a34a;padding:7px 16px;border-radius:50px;font-size:13px;font-weight:600;border:1px solid #bbf7d0;margin-top:12px}
+.enq-card{background:#fff;border-radius:20px;padding:36px;box-shadow:0 8px 36px rgba(0,0,0,.09);margin-top:28px}
+.f-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.f-group{margin-bottom:14px}
+.f-label{display:block;font-size:13px;font-weight:600;color:var(--s700);margin-bottom:5px;font-family:'Poppins',sans-serif}
+.f-req{color:#ef4444}
+.f-input{width:100%;padding:12px 14px;border:1.5px solid var(--s200);border-radius:10px;font-family:'Inter',sans-serif;font-size:14px;color:var(--s700);transition:.2s;background:#fff;-webkit-appearance:none}
+.f-input:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px rgba(27,79,216,.1)}
+.f-err{display:none;padding:12px;background:#fef2f2;border:1px solid #fecaca;border-radius:10px;color:#dc2626;font-size:13px;margin-bottom:14px}
+.f-note{text-align:center;font-size:12px;color:var(--s400);margin-top:10px}
+.success-box{text-align:center;padding:36px 20px;display:none}
+.success-icon{font-size:56px;margin-bottom:14px}
+.success-title{font-family:'Poppins',sans-serif;font-size:20px;font-weight:700;color:var(--s800);margin-bottom:10px}
+.success-msg{color:var(--s500);line-height:1.7;margin-bottom:22px}
+
+@media(max-width:560px){
+  .f-row{grid-template-columns:1fr}
+  .enq-card{padding:22px 16px;border-radius:16px}
+}
+
+/* ─── FAQ ─── */
+#faq{background:#fff}
+.faq-list{max-width:700px;margin:36px auto 0}
+.faq-item{background:#fff;border-radius:14px;border:1.5px solid var(--s100);margin-bottom:8px;overflow:hidden}
+.faq-q{display:flex;justify-content:space-between;align-items:center;padding:17px 18px;cursor:pointer;gap:10px;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.faq-q-text{font-family:'Poppins',sans-serif;font-weight:600;color:var(--s800);font-size:14px;line-height:1.4}
+.faq-arr{color:var(--blue);font-size:18px;transition:transform .25s;flex-shrink:0}
+.faq-item.open .faq-arr{transform:rotate(180deg)}
+.faq-item.open{border-color:var(--surface-dk)}
+.faq-a{display:none;padding:0 18px 16px;color:var(--s500);font-size:13px;line-height:1.7;border-top:1px solid var(--s100);padding-top:12px;margin-top:0}
+.faq-item.open .faq-a{display:block}
+
+/* ─── CONTACT ─── */
+#contact{background:var(--s50)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:42px;align-items:start}
+.cc{background:#fff;border-radius:16px;padding:18px;display:flex;gap:13px;border:1px solid var(--s100);box-shadow:0 2px 10px rgba(0,0,0,.05);margin-bottom:10px}
+.cc-ic{width:42px;height:42px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:19px;flex-shrink:0}
+.cc-title{font-family:'Poppins',sans-serif;font-weight:600;color:var(--s800);font-size:14px;margin-bottom:3px}
+.cc-text{font-size:13px;color:var(--s500);line-height:1.5}
+.cc-btn{display:inline-flex;align-items:center;gap:5px;margin-top:7px;background:var(--blue);color:#fff;padding:5px 12px;border-radius:8px;font-size:12px;font-weight:600;font-family:'Poppins',sans-serif;transition:.2s}
+.wa-cc{background:linear-gradient(135deg,#22c55e,#16a34a);border-radius:16px;padding:18px;display:flex;align-items:center;gap:13px}
+.wa-cc-ic{width:42px;height:42px;background:rgba(255,255,255,.2);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:21px;flex-shrink:0}
+.wa-cc-title{font-family:'Poppins',sans-serif;font-weight:600;color:#fff;font-size:14px;margin-bottom:2px}
+.wa-cc-sub{font-size:12px;color:rgba(255,255,255,.8)}
+.wa-cc-btn{margin-left:auto;background:#fff;color:#16a34a;font-weight:700;font-size:13px;padding:8px 14px;border-radius:10px;flex-shrink:0}
+.map-box{border-radius:20px;overflow:hidden;border:1px solid var(--s200);box-shadow:0 4px 18px rgba(0,0,0,.07)}
+.map-inner{background:linear-gradient(135deg,var(--surface),var(--surface-dk));min-height:340px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:36px}
+.map-ic-ring{width:64px;height:64px;background:rgba(27,79,216,.1);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:26px;margin:0 auto 14px}
+.map-title{font-family:'Poppins',sans-serif;font-weight:700;color:var(--s700);font-size:17px;margin-bottom:8px}
+.map-addr{color:var(--s500);font-size:13px;max-width:240px;line-height:1.65;margin-bottom:6px}
+.map-note{font-size:11px;color:var(--s400);font-style:italic;margin-bottom:18px}
+.map-footer{background:var(--blue);color:#fff;text-align:center;padding:12px;font-size:13px;font-family:'Poppins',sans-serif;font-weight:500}
+
+@media(max-width:760px){.contact-grid{grid-template-columns:1fr}}
+
+/* ─── FOOTER ─── */
+footer{background:var(--blue-dk);color:#fff}
+.foot-cta{background:linear-gradient(90deg,var(--accent),#eab308)}
+.foot-cta-in{max-width:1160px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.foot-cta-txt{font-family:'Poppins',sans-serif;font-weight:700;color:var(--blue-dk);font-size:15px}
+.foot-cta-btns{display:flex;gap:8px;flex-shrink:0}
+.foot-cta-btn{padding:7px 15px;border-radius:8px;font-weight:700;font-size:13px;font-family:'Poppins',sans-serif;transition:.2s;cursor:pointer;border:none}
+.fbt-dark{background:var(--blue-dk);color:#fff}
+.fbt-light{background:#fff;color:var(--blue-dk)}
+.foot-main{max-width:1160px;margin:0 auto;padding:48px 20px;display:grid;grid-template-columns:1.3fr 1fr 1fr 1.2fr;gap:32px}
+.foot-brand-logo{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.foot-orb{width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:800;font-size:17px;flex-shrink:0}
+.foot-brand-name{font-family:'Poppins',sans-serif;font-weight:700;font-size:14px}
+.foot-brand-tag{font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:#93c5fd}
+.foot-desc{font-size:13px;color:#93c5fd;line-height:1.7;margin-bottom:16px}
+.foot-socials{display:flex;gap:8px}
+.foot-soc{width:34px;height:34px;background:rgba(255,255,255,.1);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:14px;transition:.2s}
+.foot-col-title{font-family:'Poppins',sans-serif;font-size:11px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#93c5fd;margin-bottom:15px}
+.foot-links{list-style:none}
+.foot-links li{margin-bottom:9px}
+.foot-links a{color:#93c5fd;font-size:13px;transition:.2s;display:inline-block}
+.foot-links a:hover{color:#fff;transform:translateX(4px)}
+.foot-links a::before{content:"→ ";opacity:.5}
+.foot-ci{display:flex;gap:9px;margin-bottom:11px;align-items:flex-start}
+.foot-ci-icon{font-size:14px;margin-top:2px;flex-shrink:0}
+.foot-ci-text{font-size:13px;color:#93c5fd;line-height:1.5}
+.foot-ci-text a{color:#93c5fd}
+.foot-wa{display:inline-flex;align-items:center;gap:6px;background:#22c55e;color:#fff;padding:7px 14px;border-radius:10px;font-size:13px;font-weight:600;margin-top:6px;transition:.2s}
+.foot-bot{border-top:1px solid rgba(255,255,255,.1)}
+.foot-bot-in{max-width:1160px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.foot-copy{font-size:12px;color:#475569}
+.foot-admin{font-size:11px;color:#475569;cursor:pointer;transition:.2s;padding:4px 8px;border-radius:6px}
+.foot-admin:hover{color:#93c5fd;background:rgba(255,255,255,.05)}
+
+@media(max-width:860px){.foot-main{grid-template-columns:1fr 1fr;gap:28px}}
+@media(max-width:480px){.foot-main{grid-template-columns:1fr;padding:36px 16px}.foot-cta-txt{font-size:13px}}
+
+/* ─── WHATSAPP FLOAT ─── */
+.wa-float{position:fixed;bottom:24px;right:20px;z-index:999;display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.wa-tip{background:#fff;border-radius:14px;box-shadow:0 8px 28px rgba(0,0,0,.14);padding:14px 16px;width:188px;border:1px solid var(--s100);position:relative}
+.wa-tip-close{position:absolute;top:7px;right:10px;cursor:pointer;font-size:16px;color:var(--s400);line-height:1;touch-action:manipulation}
+.wa-tip-title{font-family:'Poppins',sans-serif;font-weight:600;font-size:13px;color:var(--s800);margin-bottom:3px}
+.wa-tip-sub{font-size:11px;color:var(--s500);margin-bottom:8px}
+.wa-tip-link{font-size:12px;font-weight:700;color:#16a34a}
+.wa-fab{width:52px;height:52px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,.5);transition:.2s;touch-action:manipulation}
+.wa-fab:active{transform:scale(.93)}
+
+/* ─── ADMIN PANEL ─── */
+#admin-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.65);z-index:500;align-items:flex-end;justify-content:center;padding:0}
+#admin-overlay.open{display:flex}
+.admin-box{background:#fff;border-radius:22px 22px 0 0;width:100%;max-width:520px;max-height:92vh;overflow-y:auto;padding:28px 24px 32px;box-shadow:0 -8px 40px rgba(0,0,0,.25)}
+.admin-handle{width:40px;height:4px;background:var(--s200);border-radius:2px;margin:0 auto 20px}
+.admin-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px}
+.admin-title{font-family:'Poppins',sans-serif;font-size:18px;font-weight:700;color:var(--blue-dk)}
+.admin-close-btn{width:32px;height:32px;border-radius:50%;border:none;background:var(--s100);cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center;color:var(--s600);touch-action:manipulation}
+.admin-tabs{display:flex;gap:6px;margin-bottom:20px;background:var(--s100);border-radius:12px;padding:4px}
+.a-tab{flex:1;padding:9px;border-radius:10px;border:none;font-family:'Poppins',sans-serif;font-size:13px;font-weight:600;cursor:pointer;background:transparent;color:var(--s500);transition:.2s;touch-action:manipulation}
+.a-tab.on{background:#fff;color:var(--blue);box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.a-panel{display:none}
+.a-panel.on{display:block}
+.status-toggle{display:flex;flex-direction:column;align-items:center;gap:14px;padding:16px 0}
+.big-status{font-size:56px;line-height:1}
+.status-label{font-family:'Poppins',sans-serif;font-size:18px;font-weight:700;color:var(--s800)}
+.status-note{font-size:12px;color:var(--s400);text-align:center}
+.toggle-btn{width:100%;padding:14px;border-radius:12px;border:none;font-family:'Poppins',sans-serif;font-weight:700;font-size:15px;cursor:pointer;transition:.2s;color:#fff;touch-action:manipulation}
+.toggle-btn:active{opacity:.85}
+.toggle-btn.open-btn{background:#ef4444}
+.toggle-btn.close-btn{background:#22c55e}
+.vocab-form{display:flex;flex-direction:column;gap:10px;margin-bottom:18px}
+.vocab-form input,.vocab-form textarea{padding:11px 13px;border:1.5px solid var(--s200);border-radius:10px;font-family:'Inter',sans-serif;font-size:14px;width:100%;-webkit-appearance:none}
+.vocab-form input:focus,.vocab-form textarea:focus{outline:none;border-color:var(--blue)}
+.vocab-list{display:flex;flex-direction:column;gap:8px}
+.vocab-entry{display:flex;align-items:flex-start;gap:10px;background:var(--s50);border-radius:12px;padding:12px}
+.vocab-entry-text{flex:1}
+.vocab-entry-word{font-family:'Poppins',sans-serif;font-weight:700;color:var(--blue);font-size:14px}
+.vocab-entry-meaning{font-size:12px;color:var(--s600)}
+.vocab-entry-eg{font-size:11px;color:var(--s400);font-style:italic;margin-top:2px}
+.vocab-del{border:none;background:none;cursor:pointer;font-size:20px;color:var(--s300,#cbd5e1);transition:.2s;padding:4px;flex-shrink:0;touch-action:manipulation}
+.vocab-del:active{color:#ef4444}
+.admin-note{font-size:11px;color:var(--s400);text-align:center;margin-top:4px}
+.admin-login{display:flex;flex-direction:column;gap:12px}
+.admin-login input{padding:13px 14px;border:1.5px solid var(--s200);border-radius:10px;font-family:'Inter',sans-serif;font-size:14px;width:100%;-webkit-appearance:none}
+.admin-login input:focus{outline:none;border-color:var(--blue)}
+.login-error{color:#dc2626;font-size:13px;display:none;background:#fef2f2;border-radius:8px;padding:8px 12px;border:1px solid #fecaca}
+.divider{height:1px;background:var(--s100);margin:16px 0}
+.admin-info-box{background:var(--surface);border:1px solid var(--surface-dk);border-radius:12px;padding:14px;margin-bottom:16px;font-size:13px;color:var(--s600);line-height:1.65}
+.admin-info-box strong{color:var(--blue-dk);font-family:'Poppins',sans-serif}
+
+@media(min-width:641px){
+  #admin-overlay{align-items:center;padding:20px}
+  .admin-box{border-radius:22px;max-height:90vh}
+  .admin-handle{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- ══ STICKY MOBILE BOTTOM BAR ══ -->
+<div class="mob-bar">
+  <a href="tel:9425656593" class="mob-call">📞 Call Now</a>
+  <a href="https://wa.me/919425656593?text=Hello%20Vikas%20Sir" target="_blank" class="mob-wa">💬 WhatsApp</a>
+</div>
+
+<!-- ══ NAVBAR ══ -->
+<nav id="nav">
+  <div class="nav-in">
+    <a class="logo" href="#home" onclick="sc(event,'#home')">
+      <div class="logo-orb">E</div>
+      <div>
+        <div class="logo-name">Elisha English</div>
+        <div class="logo-tag">Coaching Centre</div>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#home" onclick="sc(event,'#home')">Home</a></li>
+      <li><a href="#about" onclick="sc(event,'#about')">About</a></li>
+      <li><a href="#courses" onclick="sc(event,'#courses')">Courses</a></li>
+      <li><a href="#testimonials" onclick="sc(event,'#testimonials')">Reviews</a></li>
+      <li><a href="#faq" onclick="sc(event,'#faq')">FAQ</a></li>
+      <li><a href="#contact" onclick="sc(event,'#contact')">Contact</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:10px">
+      <span class="nav-phone">📞 9425656593</span>
+      <a class="btn btn-blue nav-enq" href="#enquiry" onclick="sc(event,'#enquiry')">Enquire Now</a>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()" id="ham" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- ══ MOBILE FULL-SCREEN MENU ══ -->
+<div class="mob-menu" id="mobileMenu">
+  <div class="mob-menu-top">
+    <div class="logo">
+      <div class="logo-orb" style="background:var(--blue);border-color:var(--blue);color:#fff">E</div>
+      <div>
+        <div style="font-family:'Poppins',sans-serif;font-weight:700;font-size:14px;color:var(--blue-dk)">Elisha English</div>
+        <div style="font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--blue)">Coaching Centre</div>
+      </div>
+    </div>
+    <button class="mob-menu-close" onclick="toggleMenu()">✕</button>
+  </div>
+  <div class="mob-menu-body">
+    <a href="#home" onclick="sc(event,'#home');toggleMenu()"><span>🏠</span> Home</a>
+    <a href="#about" onclick="sc(event,'#about');toggleMenu()"><span>ℹ️</span> About Us</a>
+    <a href="#courses" onclick="sc(event,'#courses');toggleMenu()"><span>📚</span> Courses</a>
+    <a href="#vocabulary" onclick="sc(event,'#vocabulary');toggleMenu()"><span>📖</span> Daily Vocabulary</a>
+    <a href="#testimonials" onclick="sc(event,'#testimonials');toggleMenu()"><span>⭐</span> Student Reviews</a>
+    <a href="#faq" onclick="sc(event,'#faq');toggleMenu()"><span>❓</span> FAQ</a>
+    <a href="#contact" onclick="sc(event,'#contact');toggleMenu()"><span>📍</span> Contact Us</a>
+    <div class="divmenu"></div>
+    <a href="tel:9425656593" style="color:#1B4FD8"><span>📞</span> 9425656593</a>
+  </div>
+  <div class="mob-menu-footer">
+    <a class="btn btn-gold" href="#enquiry" onclick="sc(event,'#enquiry');toggleMenu()" style="color:#fff">🎯 Enquire Now — 3 Days FREE Demo</a>
+    <a href="https://wa.me/919425656593" target="_blank" style="background:#22c55e;color:#fff;border-radius:12px;padding:13px;font-family:'Poppins',sans-serif;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;gap:8px">💬 WhatsApp Vikas Sir</a>
+  </div>
+</div>
+
+<!-- ══ HERO ══ -->
+<section id="home">
+  <div class="hero-dots"></div>
+  <div class="hero-blob" style="width:500px;height:500px;top:-120px;right:-120px"></div>
+  <div class="hero-blob" style="width:350px;height:350px;top:45%;left:-140px"></div>
+  <div class="hero-grid wrap">
+    <div>
+      <div class="status-pill">
+        <div class="dot green" id="sDot"></div>
+        <span class="status-text" id="sTxt">Coaching Open Today</span>
+      </div>
+      <h1 class="hero-h1">Elisha<br><span>English<br>Coaching</span><br>Centre</h1>
+      <p class="hero-by">Guided by <b>Vikas Sir</b></p>
+      <p class="hero-desc">Building strong English foundations — from grammar to spoken fluency, school boards to competitive exams. Quality education, personal attention, real results.</p>
+      <div class="hero-btns">
+        <a class="btn btn-gold" href="#enquiry" onclick="sc(event,'#enquiry')" style="color:#fff">🎯 Enquire Now</a>
+        <a class="btn btn-ghost" href="tel:9425656593">📞 Call Us</a>
+      </div>
+      <div class="hero-badges">
+        <div class="hbadge"><div class="hbadge-icon">⏰</div><div><div class="hbadge-label">Batch Timings</div><div class="hbadge-val">7AM–10AM &amp; 4PM–9PM</div></div></div>
+        <div class="hbadge"><div class="hbadge-icon">🎁</div><div><div class="hbadge-label">Free Trial</div><div class="hbadge-val">3 Days Demo Free</div></div></div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hstat"><div class="hstat-icon">📚</div><div class="hstat-val">6+</div><div class="hstat-label">Course Categories</div></div>
+      <div class="hstat"><div class="hstat-icon">🏆</div><div class="hstat-val">100%</div><div class="hstat-label">Dedication</div></div>
+      <div class="hstat"><div class="hstat-icon">⏰</div><div class="hstat-val">14hrs</div><div class="hstat-label">Daily Availability</div></div>
+      <div class="hstat"><div class="hstat-icon">🎯</div><div class="hstat-val">All</div><div class="hstat-label">CBSE · MP · ICSE</div></div>
+    </div>
+  </div>
+  <div class="hero-wave">
+    <svg viewBox="0 0 1440 70" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="display:block">
+      <path d="M0,35 C360,70 1080,0 1440,35 L1440,70 L0,70 Z" fill="white"/>
+    </svg>
+  </div>
+</section>
+
+<!-- ══ ABOUT ══ -->
+<section id="about" class="sec">
+  <div class="wrap">
+    <div class="text-center reveal">
+      <span class="sec-label">About Us</span>
+      <h2 class="sec-title">Dedicated to Your English Success</h2>
+      <p class="sec-sub" style="margin:0 auto">Elisha English Coaching Centre, guided by <strong style="color:var(--blue)">Vikas Sir</strong>, is dedicated to providing quality English education with a focus on strong grammar foundations, spoken English skills, exam preparation, and confidence-building. The institute helps students from school level to competitive examinations through effective teaching methods, regular practice, and individual attention.</p>
+    </div>
+    <div class="about-grid">
+      <div class="reveal about-img-box">
+        <div class="logo-box">
+          <div class="logo-ring">E</div>
+          <div class="logo-ph">Logo Placeholder</div>
+          <div class="logo-ph-sub">Replace with your logo</div>
+        </div>
+        <div class="float-card">
+          <div class="float-stars">⭐⭐⭐⭐⭐</div>
+          <div class="float-txt">"Exceptional teaching by Vikas Sir"</div>
+          <div class="float-by">— Student Review</div>
+        </div>
+        <div class="float-badge">📍 Amaha, Sidhi (M.P.)</div>
+      </div>
+      <div class="reveal">
+        <div class="hi-item"><div class="hi-icon">📖</div><div><div class="hi-title">Strong English Foundation</div><div class="hi-desc">Grammar to fluency — built systematically from the ground up.</div></div></div>
+        <div class="hi-item"><div class="hi-icon">👥</div><div><div class="hi-title">Personal Attention</div><div class="hi-desc">Every student matters. Individual feedback and focused guidance.</div></div></div>
+        <div class="hi-item"><div class="hi-icon">⭐</div><div><div class="hi-title">Practical Learning</div><div class="hi-desc">Real-world English practice, not just textbook exercises.</div></div></div>
+        <div class="hi-item"><div class="hi-icon">🏆</div><div><div class="hi-title">Exam-Oriented Preparation</div><div class="hi-desc">Targeted coaching for boards, TET, SSC, Railway, and more.</div></div></div>
+        <div class="checklist">
+          <div class="cl-title">We Focus On</div>
+          <div class="cl-grid">
+            <div class="cl-item">Regular Practice</div><div class="cl-item">Progress Tracking</div>
+            <div class="cl-item">Mock Tests</div><div class="cl-item">Grammar Mastery</div>
+            <div class="cl-item">Spoken English</div><div class="cl-item">Exam Strategies</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ COURSES ══ -->
+<section id="courses" class="sec">
+  <div class="wrap">
+    <div class="text-center reveal">
+      <span class="sec-label">Our Courses</span>
+      <h2 class="sec-title">Courses for Every Learner</h2>
+      <p class="sec-sub" style="margin:0 auto">From school students to competitive exam aspirants — a course tailored just for you.</p>
+    </div>
+    <div class="courses-grid">
+      <div class="c-card reveal"><div class="c-bar" style="background:linear-gradient(90deg,#3b82f6,#6366f1)"></div><div class="c-body"><div class="c-top"><div class="c-icon">🗣️</div><span class="c-badge">Most Popular</span></div><div class="c-title">English Grammar &amp; Spoken English</div><div class="c-sub">All Levels Welcome</div><div class="c-desc">Master spoken and written English — from basic grammar to fluent communication.</div><div class="c-tags"><span class="c-tag">Spoken English</span><span class="c-tag">Grammar</span><span class="c-tag">Vocabulary</span><span class="c-tag">Communication</span></div><a class="c-link" href="#enquiry" onclick="sc(event,'#enquiry')">Enquire Now →</a></div></div>
+      <div class="c-card reveal"><div class="c-bar" style="background:linear-gradient(90deg,#a855f7,#ec4899)"></div><div class="c-body"><div class="c-top"><div class="c-icon">🎓</div><span class="c-badge">Class 9–12</span></div><div class="c-title">School English Special Batches</div><div class="c-sub">CBSE · MP Board · ICSE · All Boards</div><div class="c-desc">Dedicated batches for Classes 9–12 with board exam-focused preparation.</div><div class="c-tags"><span class="c-tag">Grammar</span><span class="c-tag">Writing Skills</span><span class="c-tag">Comprehension</span><span class="c-tag">Exam Prep</span></div><a class="c-link" href="#enquiry" onclick="sc(event,'#enquiry')">Enquire Now →</a></div></div>
+      <div class="c-card reveal"><div class="c-bar" style="background:linear-gradient(90deg,#14b8a6,#06b6d4)"></div><div class="c-body"><div class="c-top"><div class="c-icon">📖</div><span class="c-badge">Class 5–8</span></div><div class="c-title">Basic English Grammar</div><div class="c-sub">Building a Strong Foundation</div><div class="c-desc">Fun, engaging lessons on grammar, reading, vocabulary, and writing for junior students.</div><div class="c-tags"><span class="c-tag">Grammar Basics</span><span class="c-tag">Vocabulary</span><span class="c-tag">Reading</span><span class="c-tag">Writing</span></div><a class="c-link" href="#enquiry" onclick="sc(event,'#enquiry')">Enquire Now →</a></div></div>
+      <div class="c-card reveal"><div class="c-bar" style="background:linear-gradient(90deg,#f59e0b,#f97316)"></div><div class="c-body"><div class="c-top"><div class="c-icon">📝</div><span class="c-badge">TET Exams</span></div><div class="c-title">Teacher Eligibility Test Prep</div><div class="c-sub">MP TET · UP TET · CTET · All TET</div><div class="c-desc">Comprehensive coaching for all TET exams with strong focus on English pedagogy.</div><div class="c-tags"><span class="c-tag">Pedagogy</span><span class="c-tag">Grammar</span><span class="c-tag">Practice Questions</span><span class="c-tag">Mock Tests</span></div><a class="c-link" href="#enquiry" onclick="sc(event,'#enquiry')">Enquire Now →</a></div></div>
+      <div class="c-card reveal"><div class="c-bar" style="background:linear-gradient(90deg,#ef4444,#f43f5e)"></div><div class="c-body"><div class="c-top"><div class="c-icon">🏆</div><span class="c-badge">Govt Exams</span></div><div class="c-title">Competitive Exam English</div><div class="c-sub">SSC · Railway · Banking · Govt Exams</div><div class="c-desc">Targeted English prep with PYQ practice, vocabulary drills, and timed mock tests.</div><div class="c-tags"><span class="c-tag">Grammar</span><span class="c-tag">Vocabulary</span><span class="c-tag">PYQs</span><span class="c-tag">Mock Tests</span></div><a class="c-link" href="#enquiry" onclick="sc(event,'#enquiry')">Enquire Now →</a></div></div>
+      <div class="c-card reveal"><div class="c-bar" style="background:linear-gradient(90deg,#22c55e,#10b981)"></div><div class="c-body"><div class="c-top"><div class="c-icon">⭐</div><span class="c-badge">Entrance Exams</span></div><div class="c-title">Entrance Exam Preparation</div><div class="c-sub">Navodaya · Sainik · Military · Excellence</div><div class="c-desc">Special coaching for prestigious entrance exams — English, reasoning and full mock tests.</div><div class="c-tags"><span class="c-tag">English</span><span class="c-tag">Reasoning</span><span class="c-tag">Aptitude</span><span class="c-tag">Mock Tests</span></div><a class="c-link" href="#enquiry" onclick="sc(event,'#enquiry')">Enquire Now →</a></div></div>
+    </div>
+    <div class="why-box reveal">
+      <h3>Why Choose Elisha English Coaching Centre?</h3>
+      <p>What sets us apart from other coaching institutes</p>
+      <div class="why-grid">
+        <div class="why-item"><div class="why-item-icon">👨‍🏫</div><div class="why-item-title">Expert Faculty</div><div class="why-item-desc">Experienced English educator</div></div>
+        <div class="why-item"><div class="why-item-icon">🎁</div><div class="why-item-title">3-Day Free Demo</div><div class="why-item-desc">Try before you enroll</div></div>
+        <div class="why-item"><div class="why-item-icon">⏰</div><div class="why-item-title">Flexible Timings</div><div class="why-item-desc">Morning &amp; evening batches</div></div>
+        <div class="why-item"><div class="why-item-icon">🎯</div><div class="why-item-title">Result-Focused</div><div class="why-item-desc">Measurable outcomes</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ VOCABULARY ══ -->
+<section id="vocabulary">
+  <div class="reveal">
+    <div class="vocab-pill">📖 Daily English Vocabulary</div>
+    <h2 class="vocab-title">Word of the Day</h2>
+    <p class="vocab-hint">Tap the card to see example sentence</p>
+    <div class="fc-wrap" onclick="fcFlip()">
+      <div class="fc" id="fc">
+        <div class="fc-face fc-front">
+          <span class="fc-label">Word</span>
+          <div class="fc-word" id="fcWord">Achieve</div>
+          <div class="fc-meaning" id="fcMeaning">To successfully reach a goal</div>
+          <div class="fc-tap">Tap to see example →</div>
+        </div>
+        <div class="fc-face fc-back">
+          <span class="fc-label">Example Sentence</span>
+          <div class="fc-example" id="fcExample">"Work hard to achieve your dreams."</div>
+        </div>
+      </div>
+    </div>
+    <div class="vocab-ctrl">
+      <button class="vbtn" onclick="vPrev()">‹</button>
+      <div class="v-dots" id="vDots"></div>
+      <button class="vbtn" onclick="vNext()">›</button>
+    </div>
+    <div class="v-words" id="vWords"></div>
+  </div>
+</section>
+
+<!-- ══ TESTIMONIALS ══ -->
+<section id="testimonials" class="sec">
+  <div class="wrap">
+    <div class="text-center reveal">
+      <span class="sec-label">Testimonials</span>
+      <h2 class="sec-title">What Our Students Say</h2>
+    </div>
+    <div class="test-card reveal">
+      <div class="test-bigq">"</div>
+      <div class="test-stars">⭐⭐⭐⭐⭐</div>
+      <div class="test-text" id="tText">"Vikas Sir explains grammar concepts so clearly. My board score improved from 62% to 84% after joining Elisha English Coaching Centre!"</div>
+      <div class="test-name" id="tName">Rohit Patel</div>
+      <div class="test-role" id="tRole">Class 10 Student</div>
+      <div class="test-nav">
+        <button class="tnav" onclick="tPrev()">‹</button>
+        <div class="t-bar" id="tBar"></div>
+        <button class="tnav" onclick="tNext()">›</button>
+      </div>
+    </div>
+    <div class="t-mini reveal" id="tMini"></div>
+  </div>
+</section>
+
+<!-- ══ ENQUIRY ══ -->
+<section id="enquiry" class="sec">
+  <div class="wrap enq-wrap">
+    <div class="text-center reveal">
+      <span class="sec-label">Admissions Open</span>
+      <h2 class="sec-title">Enquire Now</h2>
+      <p class="sec-sub" style="margin:0 auto">Fill in your details — Vikas Sir will reach out within 24 hours.</p>
+      <div class="demo-tag">🎁 First 3 demo classes are absolutely <strong>&nbsp;FREE</strong></div>
+    </div>
+    <div class="enq-card reveal" id="enqCard">
+      <!--
+        ✅ EMAIL SETUP (formspree already set):
+        Form action = https://formspree.io/f/xljrgvgd
+        Emails go to: ramvikaskushwaha@gmail.com
+        Just verify this email on formspree.io
+      -->
+      <form id="enqForm" action="https://formspree.io/f/xljrgvgd" method="POST" onsubmit="handleSubmit(event)">
+        <input type="hidden" name="_subject" value="New Enquiry — Elisha English Coaching Centre"/>
+        <input type="text" name="_gotcha" style="display:none"/>
+        <div class="f-row">
+          <div><label class="f-label">Student Name <span class="f-req">*</span></label><input class="f-input" name="student_name" type="text" placeholder="Student ka naam" required/></div>
+          <div><label class="f-label">Parent / Guardian Name <span class="f-req">*</span></label><input class="f-input" name="parent_name" type="text" placeholder="Parent ka naam" required/></div>
+        </div>
+        <div class="f-row">
+          <div><label class="f-label">Mobile Number <span class="f-req">*</span></label><input class="f-input" name="mobile" type="tel" placeholder="10-digit number" pattern="[0-9]{10}" inputmode="numeric" required/></div>
+          <div><label class="f-label">Email <span style="color:var(--s400);font-weight:400">(optional)</span></label><input class="f-input" name="email" type="email" placeholder="email@gmail.com"/></div>
+        </div>
+        <div class="f-group">
+          <label class="f-label">Course Interested <span class="f-req">*</span></label>
+          <select class="f-input" name="course" required>
+            <option value="">Course select karein...</option>
+            <option>English Grammar &amp; Spoken English</option>
+            <option>School English – Class 9-10</option>
+            <option>School English – Class 11-12</option>
+            <option>Basic English Grammar (Class 5-8)</option>
+            <option>Teacher Eligibility Test (TET)</option>
+            <option>Competitive Exam English (SSC/Railway/Banking)</option>
+            <option>Entrance Exam (Navodaya/Sainik/Military)</option>
+            <option>Other / Not Sure Yet</option>
+          </select>
+        </div>
+        <div class="f-group">
+          <label class="f-label">Message <span style="color:var(--s400);font-weight:400">(optional)</span></label>
+          <textarea class="f-input" name="message" rows="3" placeholder="Koi sawaal ya zaroorat ho toh likho..."></textarea>
+        </div>
+        <div class="f-err" id="fErr"></div>
+        <button class="btn btn-blue" type="submit" style="width:100%;justify-content:center;padding:14px;font-size:15px" id="submitBtn">📩 Enquiry Send Karein</button>
+        <p class="f-note">🔒 Aapki information safe hai. Hum kisi ke saath share nahi karte.</p>
+      </form>
+      <div class="success-box" id="successBox">
+        <div class="success-icon">✅</div>
+        <div class="success-title">Enquiry Sent!</div>
+        <div class="success-msg">Thank you for contacting Elisha English Coaching Centre.<br><strong>We will contact you soon.</strong></div>
+        <button class="btn btn-blue" onclick="resetForm()">Send Another Enquiry</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FAQ ══ -->
+<section id="faq" class="sec" style="background:var(--s50)">
+  <div class="wrap">
+    <div class="text-center reveal">
+      <span class="sec-label">FAQ</span>
+      <h2 class="sec-title">Frequently Asked Questions</h2>
+      <p class="sec-sub" style="margin:0 auto">Aam sawaalon ke jawab — seedha aur saaf.</p>
+    </div>
+    <div class="faq-list" id="faqList"></div>
+  </div>
+</section>
+
+<!-- ══ CONTACT ══ -->
+<section id="contact" class="sec">
+  <div class="wrap">
+    <div class="text-center reveal">
+      <span class="sec-label">Get In Touch</span>
+      <h2 class="sec-title">Visit or Contact Us</h2>
+      <p class="sec-sub" style="margin:0 auto">Kisi bhi tarike se humse sampark karein.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="cc"><div class="cc-ic" style="background:#eff6ff">📍</div><div><div class="cc-title">Our Address</div><div class="cc-text">Kamla College Road, Near Uchi Haveli,<br>Amaha, Sidhi, Madhya Pradesh</div></div></div>
+        <div class="cc"><div class="cc-ic" style="background:#f0fdf4">📞</div><div><div class="cc-title">Call / WhatsApp</div><div class="cc-text">9425656593</div><a href="tel:9425656593" class="cc-btn">📞 Call Now</a></div></div>
+        <div class="cc"><div class="cc-ic" style="background:#faf5ff">✉️</div><div><div class="cc-title">Email</div><div class="cc-text">ramvikaskushwaha@gmail.com</div><a href="mailto:ramvikaskushwaha@gmail.com" class="cc-btn">✉️ Send Email</a></div></div>
+        <div class="cc"><div class="cc-ic" style="background:#fffbeb">⏰</div><div><div class="cc-title">Batch Timings</div><div class="cc-text">Morning: 7:00 AM – 10:00 AM<br>Evening: 4:00 PM – 9:00 PM</div></div></div>
+        <div class="wa-cc"><div class="wa-cc-ic">💬</div><div><div class="wa-cc-title">Chat on WhatsApp</div><div class="wa-cc-sub">Get instant replies from Vikas Sir</div></div><a href="https://wa.me/919425656593?text=Hello%20Vikas%20Sir" target="_blank" class="wa-cc-btn">Chat Now</a></div>
+      </div>
+      <div class="reveal">
+        <div class="map-box">
+          <div class="map-inner">
+            <div class="map-ic-ring">📍</div>
+            <div class="map-title">Google Maps</div>
+            <div class="map-addr">Kamla College Road, Near Uchi Haveli, Amaha, Sidhi (M.P.)</div>
+            <div class="map-note">📍 Yahan Google Maps embed add karein</div>
+            <a href="https://maps.google.com/?q=Amaha,Sidhi,Madhya+Pradesh" target="_blank" class="btn btn-blue" style="font-size:13px;padding:10px 20px">🗺️ Open in Google Maps</a>
+          </div>
+          <div class="map-footer">📍 Amaha, Sidhi, Madhya Pradesh</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="foot-cta">
+    <div class="foot-cta-in">
+      <div class="foot-cta-txt">🎁 3 Days Demo Classes — Absolutely FREE!</div>
+      <div class="foot-cta-btns">
+        <a href="tel:9425656593" class="foot-cta-btn fbt-dark">📞 Call</a>
+        <a href="#enquiry" onclick="sc(event,'#enquiry')" class="foot-cta-btn fbt-light">Enquire</a>
+      </div>
+    </div>
+  </div>
+  <div class="foot-main">
+    <div>
+      <div class="foot-brand-logo"><div class="foot-orb">E</div><div><div class="foot-brand-name">Elisha English</div><div class="foot-brand-tag">Coaching Centre</div></div></div>
+      <div class="foot-desc">Quality English education in Amaha, Sidhi. Guided by Vikas Sir — building confident speakers and high scorers.</div>
+      <div class="foot-socials">
+        <a class="foot-soc" href="#" title="Facebook">📘</a>
+        <a class="foot-soc" href="#" title="Instagram">📸</a>
+        <a class="foot-soc" href="#" title="YouTube">▶️</a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-col-title">Quick Links</div>
+      <ul class="foot-links">
+        <li><a href="#home" onclick="sc(event,'#home')">Home</a></li>
+        <li><a href="#about" onclick="sc(event,'#about')">About Us</a></li>
+        <li><a href="#courses" onclick="sc(event,'#courses')">Courses</a></li>
+        <li><a href="#testimonials" onclick="sc(event,'#testimonials')">Testimonials</a></li>
+        <li><a href="#faq" onclick="sc(event,'#faq')">FAQ</a></li>
+        <li><a href="#enquiry" onclick="sc(event,'#enquiry')">Enquire Now</a></li>
+        <li><a href="#contact" onclick="sc(event,'#contact')">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-col-title">Courses</div>
+      <ul class="foot-links">
+        <li><a href="#courses">Grammar &amp; Spoken</a></li>
+        <li><a href="#courses">School English (9–12)</a></li>
+        <li><a href="#courses">Basic English (5–8)</a></li>
+        <li><a href="#courses">TET Preparation</a></li>
+        <li><a href="#courses">SSC / Railway</a></li>
+        <li><a href="#courses">Entrance Exams</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-col-title">Contact Us</div>
+      <div class="foot-ci"><span class="foot-ci-icon">📍</span><div class="foot-ci-text">Kamla College Road, Near Uchi Haveli, Amaha, Sidhi (M.P.)</div></div>
+      <div class="foot-ci"><span class="foot-ci-icon">📞</span><div class="foot-ci-text"><a href="tel:9425656593">9425656593</a></div></div>
+      <div class="foot-ci"><span class="foot-ci-icon">✉️</span><div class="foot-ci-text"><a href="mailto:ramvikaskushwaha@gmail.com">ramvikaskushwaha@gmail.com</a></div></div>
+      <a href="https://wa.me/919425656593" target="_blank" class="foot-wa">💬 WhatsApp Us</a>
+    </div>
+  </div>
+  <div class="foot-bot">
+    <div class="foot-bot-in">
+      <span class="foot-copy">© 2025 Elisha English Coaching Centre, Amaha, Sidhi (M.P.).</span>
+      <span class="foot-admin" onclick="openAdmin()">⚙️ Admin</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ══ WHATSAPP FLOAT ══ -->
+<div class="wa-float" id="waFloat" style="opacity:0;transition:opacity .5s">
+  <div class="wa-tip" id="waTip" style="display:none">
+    <span class="wa-tip-close" onclick="document.getElementById('waTip').style.display='none'">✕</span>
+    <div class="wa-tip-title">Chat with Vikas Sir 👋</div>
+    <div class="wa-tip-sub">Quick answers on courses, fees &amp; timings.</div>
+    <a class="wa-tip-link" href="https://wa.me/919425656593" target="_blank">Start Chat →</a>
+  </div>
+  <a class="wa-fab" href="https://wa.me/919425656593?text=Hello%20Vikas%20Sir%2C%20I%20want%20to%20enquire%20about%20Elisha%20English%20Coaching%20Centre." target="_blank" onmouseenter="document.getElementById('waTip').style.display='block'" aria-label="WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+</div>
+
+<!-- ══ ADMIN PANEL ══ -->
+<div id="admin-overlay">
+  <div class="admin-box">
+    <div class="admin-handle"></div>
+
+    <!-- LOGIN -->
+    <div id="adminLogin">
+      <div class="admin-header">
+        <div class="admin-title">🔐 Admin Login</div>
+        <button class="admin-close-btn" onclick="closeAdmin()">✕</button>
+      </div>
+      <div class="admin-info-box">
+        <strong>Vikas Sir ke liye Admin Panel</strong><br>
+        Yahan se aap coaching status change kar sakte hain aur daily vocabulary manage kar sakte hain.
+      </div>
+      <div class="admin-login">
+        <input type="text" id="aUser" placeholder="Username" onkeydown="if(event.key==='Enter')doLogin()"/>
+        <input type="password" id="aPass" placeholder="Password" onkeydown="if(event.key==='Enter')doLogin()"/>
+        <div class="login-error" id="loginErr">❌ Username ya password galat hai</div>
+        <button class="btn btn-blue" style="width:100%;justify-content:center;padding:13px" onclick="doLogin()">🔓 Login Karein</button>
+        <p style="font-size:11px;color:var(--s400);text-align:center;padding:4px">Default: <b>admin</b> / <b>elisha2024</b></p>
+      </div>
+    </div>
+
+    <!-- DASHBOARD -->
+    <div id="adminDash" style="display:none">
+      <div class="admin-header">
+        <div class="admin-title">⚙️ Admin Panel</div>
+        <button class="admin-close-btn" onclick="closeAdmin()">✕</button>
+      </div>
+      <div class="admin-tabs">
+        <button class="a-tab on" onclick="aTab(0)">🟢 Status</button>
+        <button class="a-tab" onclick="aTab(1)">📖 Vocab</button>
+      </div>
+
+      <!-- STATUS TAB -->
+      <div class="a-panel on" id="ap0">
+        <div class="admin-info-box">
+          <strong>Coaching Status</strong> — Ye homepage pe live dikh ta hai. Subah open karein, raat ko band karein.
+        </div>
+        <div class="status-toggle">
+          <div class="big-status" id="bigStatus">🟢</div>
+          <div class="status-label" id="statusLabel">Coaching OPEN hai</div>
+          <p class="status-note">Homepage pe instantly update hoga</p>
+          <button class="toggle-btn open-btn" id="toggleBtn" onclick="toggleStatus()">🔴 CLOSED Set Karein</button>
+          <button onclick="closeAdmin()" style="background:none;border:none;font-size:13px;color:var(--s400);cursor:pointer;font-family:'Poppins',sans-serif">← Website pe wapas jaayein</button>
+        </div>
+      </div>
+
+      <!-- VOCAB TAB -->
+      <div class="a-panel" id="ap1">
+        <div class="admin-info-box">
+          <strong>Daily Vocabulary</strong> — Har roz 5 naaye words add karein. Homepage pe automatically dikh te hain.
+        </div>
+        <div class="vocab-form">
+          <input type="text" id="vWord" placeholder="Word (jaise: Achieve)"/>
+          <input type="text" id="vMeaning" placeholder="Matlab (jaise: Kaamyab hona)"/>
+          <textarea id="vExample" rows="2" placeholder="Example: Practice helps students improve."></textarea>
+          <button class="btn btn-blue" style="justify-content:center;width:100%;padding:12px" onclick="addVocab()">➕ Word Add Karein</button>
+          <div class="admin-note">💡 Best display ke liye 5 words rakho</div>
+        </div>
+        <div class="divider"></div>
+        <p style="font-size:12px;font-weight:600;color:var(--s600);margin-bottom:10px;font-family:'Poppins',sans-serif">Current Words:</p>
+        <div class="vocab-list" id="adminVocabList"></div>
+      </div>
+
+      <div class="divider"></div>
+      <button onclick="aLogout()" style="width:100%;padding:12px;border:1.5px solid #fecaca;background:#fef2f2;color:#dc2626;border-radius:12px;font-family:'Poppins',sans-serif;font-weight:600;font-size:14px;cursor:pointer;touch-action:manipulation">🚪 Logout</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const ADMIN_USER='admin', ADMIN_PASS='elisha2024';
+
+// Smooth scroll
+function sc(e,id){e.preventDefault();document.querySelector(id)?.scrollIntoView({behavior:'smooth'})}
+
+// Navbar
+window.addEventListener('scroll',()=>{document.getElementById('nav').classList.toggle('solid',scrollY>55)},{passive:true});
+
+// Mobile menu
+function toggleMenu(){
+  const m=document.getElementById('mobileMenu');
+  m.classList.toggle('open');
+  document.body.style.overflow=m.classList.contains('open')?'hidden':'';
+}
+
+// WhatsApp float
+setTimeout(()=>{document.getElementById('waFloat').style.opacity='1'},2000);
+
+// Reveal on scroll
+const ro=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('on')}),{threshold:.08});
+document.querySelectorAll('.reveal').forEach(el=>ro.observe(el));
+
+// ── STATUS ──────────────────────────────────────
+let isOpen=JSON.parse(localStorage.getItem('coachingOpen')?? 'true');
+function applyStatus(){
+  const dot=document.getElementById('sDot'),txt=document.getElementById('sTxt');
+  if(isOpen){dot.className='dot green';txt.textContent='Coaching Open Today';}
+  else{dot.className='dot red';dot.style.animation='none';txt.textContent='Coaching Closed Today';}
+  const bs=document.getElementById('bigStatus'),sl=document.getElementById('statusLabel'),tb=document.getElementById('toggleBtn');
+  if(!bs)return;
+  bs.textContent=isOpen?'🟢':'🔴';
+  sl.textContent=isOpen?'Coaching OPEN hai':'Coaching CLOSED hai';
+  if(tb){tb.textContent=isOpen?'🔴 CLOSED Set Karein':'🟢 OPEN Set Karein';tb.className=isOpen?'toggle-btn open-btn':'toggle-btn close-btn';}
+}
+applyStatus();
+function toggleStatus(){isOpen=!isOpen;localStorage.setItem('coachingOpen',JSON.stringify(isOpen));applyStatus();}
+
+// ── VOCABULARY ───────────────────────────────────
+const DEF_V=[
+  {word:'Achieve',meaning:'Kisi goal ko paana',example:'Work hard to achieve your dreams.'},
+  {word:'Improve',meaning:'Behtar banana ya hona',example:'Practice helps students improve.'},
+  {word:'Diligent',meaning:'Mehnat karne wala',example:'A diligent student always succeeds.'},
+  {word:'Confident',meaning:'Khud par yakeen rakhna',example:'She was confident in her answers.'},
+  {word:'Persevere',meaning:'Mushkil mein bhi lagte rehna',example:'Persevere and you will succeed.'},
+];
+let vocab=JSON.parse(localStorage.getItem('vocab')||'null')||DEF_V;
+let vi=0,vFl=false;
+function saveV(){localStorage.setItem('vocab',JSON.stringify(vocab));}
+function renderV(){
+  const v=vocab[vi];
+  document.getElementById('fcWord').textContent=v.word;
+  document.getElementById('fcMeaning').textContent=v.meaning;
+  document.getElementById('fcExample').textContent='"'+v.example+'"';
+  vFl=false;document.getElementById('fc').classList.remove('flip');
+  document.getElementById('vDots').innerHTML=vocab.map((_,i)=>`<div class="v-dot${i===vi?' on':''}" onclick="vSet(${i})"></div>`).join('');
+  document.getElementById('vWords').innerHTML=vocab.map((vv,i)=>`<button class="v-word${i===vi?' on':''}" onclick="vSet(${i})">${vv.word}</button>`).join('');
+}
+function fcFlip(){vFl=!vFl;document.getElementById('fc').classList.toggle('flip',vFl);}
+function vPrev(){vi=(vi-1+vocab.length)%vocab.length;renderV();}
+function vNext(){vi=(vi+1)%vocab.length;renderV();}
+function vSet(i){vi=i;renderV();}
+renderV();
+setInterval(()=>{if(!vFl){vi=(vi+1)%vocab.length;renderV();}},6000);
+
+function addVocab(){
+  const w=document.getElementById('vWord').value.trim();
+  const m=document.getElementById('vMeaning').value.trim();
+  const eg=document.getElementById('vExample').value.trim();
+  if(!w||!m||!eg){alert('Teen fields fill karein: Word, Meaning, aur Example');return;}
+  vocab.push({word:w,meaning:m,example:eg});
+  saveV();renderV();renderAdminV();
+  document.getElementById('vWord').value='';document.getElementById('vMeaning').value='';document.getElementById('vExample').value='';
+}
+function delVocab(i){if(!confirm('Ye word delete karein?'))return;vocab.splice(i,1);saveV();renderV();renderAdminV();}
+function renderAdminV(){
+  document.getElementById('adminVocabList').innerHTML=vocab.length===0
+    ?'<p style="text-align:center;color:var(--s400);font-size:13px;padding:16px">Koi word nahi hai. Upar se add karein!</p>'
+    :vocab.map((v,i)=>`<div class="vocab-entry"><div class="vocab-entry-text"><div class="vocab-entry-word">${v.word}</div><div class="vocab-entry-meaning">${v.meaning}</div><div class="vocab-entry-eg">"${v.example}"</div></div><button class="vocab-del" onclick="delVocab(${i})" title="Delete">🗑️</button></div>`).join('');
+}
+
+// ── TESTIMONIALS ─────────────────────────────────
+const TESTS=[
+  {name:'Rohit Patel',role:'Class 10 Student',text:'Vikas Sir explains grammar so clearly. My board score improved from 62% to 84% after joining Elisha Coaching!'},
+  {name:'Priya Sharma',role:'CTET Aspirant',text:'The TET preparation here is excellent. Vikas Sir covers English pedagogy in a way no other coaching does. I cleared CTET in first attempt!'},
+  {name:'Anita Gupta',role:'Parent of Class 9 Student',text:"My son's spoken English improved remarkably in just 2 months. The personal attention Vikas Sir gives is commendable."},
+  {name:'Deepak Tiwari',role:'SSC Aspirant',text:'Mock tests and PYQ practice helped me crack the SSC English section. Evening batch timings are very convenient!'},
+  {name:'Sunita Verma',role:'Class 12 Student',text:'3 free demo classes convinced me this is the best coaching in Sidhi. Writing skills section helped a lot in MP Board exams.'},
+];
+let ti=0;
+function renderT(){
+  const t=TESTS[ti];
+  document.getElementById('tText').textContent='"'+t.text+'"';
+  document.getElementById('tName').textContent=t.name;
+  document.getElementById('tRole').textContent=t.role;
+  document.getElementById('tBar').innerHTML=TESTS.map((_,i)=>`<div class="t-bar-dot${i===ti?' on':''}" onclick="tSet(${i})"></div>`).join('');
+  const mini=document.getElementById('tMini');
+  if(mini)mini.innerHTML=TESTS.map((tt,i)=>`<div class="t-mini-card${i===ti?' on':''}" onclick="tSet(${i})"><div class="t-mini-stars">⭐⭐⭐⭐⭐</div><div class="t-mini-text">"${tt.text}"</div><div class="t-mini-name">${tt.name}</div><div class="t-mini-role">${tt.role}</div></div>`).join('');
+}
+function tPrev(){ti=(ti-1+TESTS.length)%TESTS.length;renderT();}
+function tNext(){ti=(ti+1)%TESTS.length;renderT();}
+function tSet(i){ti=i;renderT();}
+renderT();
+setInterval(()=>{ti=(ti+1)%TESTS.length;renderT();},5000);
+
+// ── FAQ ───────────────────────────────────────────
+const FAQS=[
+  ['Demo classes free hain kya?','Haan! Naye students ke liye 3 din ke demo classes bilkul free hain. Koi fee nahi, koi commitment nahi.'],
+  ['Batch timings kya hain?','Morning batch: 7 AM se 10 AM. Evening batch: 4 PM se 9 PM. Apni suvidha ke anusar batch chunein.'],
+  ['Kaun kaun se boards cover hote hain?','CBSE, MP Board, ICSE aur sabhi state boards cover hote hain. Teaching fundamentals pe focused hai.'],
+  ['Study materials milte hain kya?','Haan, Vikas Sir practice sheets, study materials aur previous year questions dete hain.'],
+  ['Admission kaise lein?','Form bharo, ya 9425656593 pe call/WhatsApp karein. Ya seedha Kamla College Road, Amaha, Sidhi aayein.'],
+  ['Kaun se competitive exams ke liye prepare karte hain?','SSC, Railway, Banking, MP TET, UP TET, CTET, Navodaya, Sainik School, Military School, Excellence School.'],
+  ['Fees kitni hain?','Fees course ke hisab se alag hoti hai. Detail ke liye 9425656593 pe call karein.'],
+];
+document.getElementById('faqList').innerHTML=FAQS.map((f,i)=>`
+  <div class="faq-item reveal" style="transition-delay:${i*.04}s" onclick="this.classList.toggle('open')">
+    <div class="faq-q"><span class="faq-q-text">${f[0]}</span><span class="faq-arr">⌄</span></div>
+    <div class="faq-a">${f[1]}</div>
+  </div>`).join('');
+document.querySelectorAll('.faq-item').forEach(el=>ro.observe(el));
+
+// ── FORM ──────────────────────────────────────────
+function handleSubmit(e){
+  document.getElementById('submitBtn').textContent='⏳ Bhej rahe hain...';
+  document.getElementById('submitBtn').disabled=true;
+  // Formspree already handles submission, just show success after delay
+  setTimeout(()=>{
+    document.getElementById('enqForm').style.display='none';
+    document.getElementById('successBox').style.display='block';
+  },2200);
+}
+function resetForm(){
+  document.getElementById('enqForm').style.display='block';
+  document.getElementById('successBox').style.display='none';
+  document.getElementById('submitBtn').textContent='📩 Enquiry Send Karein';
+  document.getElementById('submitBtn').disabled=false;
+  document.getElementById('enqForm').reset();
+}
+
+// ── ADMIN ─────────────────────────────────────────
+function openAdmin(){
+  document.getElementById('admin-overlay').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeAdmin(){
+  document.getElementById('admin-overlay').classList.remove('open');
+  document.body.style.overflow='';
+}
+function doLogin(){
+  const u=document.getElementById('aUser').value.trim();
+  const p=document.getElementById('aPass').value.trim();
+  if(u===ADMIN_USER&&p===ADMIN_PASS){
+    document.getElementById('adminLogin').style.display='none';
+    document.getElementById('adminDash').style.display='block';
+    applyStatus();renderAdminV();
+  }else{
+    const err=document.getElementById('loginErr');
+    err.style.display='block';
+    setTimeout(()=>{err.style.display='none';},3000);
+  }
+}
+function aLogout(){
+  document.getElementById('adminLogin').style.display='block';
+  document.getElementById('adminDash').style.display='none';
+  document.getElementById('aUser').value='';
+  document.getElementById('aPass').value='';
+  closeAdmin();
+}
+function aTab(i){
+  document.querySelectorAll('.a-tab').forEach((t,j)=>{
+    t.classList.toggle('on',j===i);
+    document.getElementById('ap'+j).classList.toggle('on',j===i);
+  });
+}
+document.getElementById('admin-overlay').addEventListener('click',function(e){if(e.target===this)closeAdmin();});
+</script>
+</body>
+</html>
