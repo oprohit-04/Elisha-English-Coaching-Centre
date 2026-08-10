@@ -807,15 +807,12 @@ footer{background:var(--blue-dk);color:#fff}
         <div class="admin-title">🔐 Admin Login</div>
         <button class="admin-close-btn" onclick="closeAdmin()">✕</button>
       </div>
-      <div class="admin-info-box">
-        <strong>Vikas Sir ke liye Admin Panel</strong><br>
-        Yahan se aap coaching status change kar sakte hain aur daily vocabulary manage kar sakte hain.
-      </div>
+    
       <div class="admin-login">
         <input type="text" id="aUser" placeholder="Username" onkeydown="if(event.key==='Enter')doLogin()"/>
         <input type="password" id="aPass" placeholder="Password" onkeydown="if(event.key==='Enter')doLogin()"/>
-        <div class="login-error" id="loginErr">❌ Username ya password galat hai</div>
-        <button class="btn btn-blue" style="width:100%;justify-content:center;padding:13px" onclick="doLogin()">🔓 Login Karein</button>
+        <div class="login-error" id="loginErr">❌Wrong username or password </div>
+        <button class="btn btn-blue" style="width:100%;justify-content:center;padding:13px" onclick="doLogin()">🔓 Login </button>
         <p style="font-size:11px;color:var(--s400);text-align:center;padding:4px">Default: <b>admin</b> / <b>Alisha2024</b></p>
       </div>
     </div>
