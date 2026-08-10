@@ -488,7 +488,6 @@ footer{background:var(--blue-dk);color:#fff}
     </div>
 </a>
 
-    </a>
     <ul class="nav-links">
       <li><a href="#home" onclick="sc(event,'#home')">Home</a></li>
       <li><a href="#about" onclick="sc(event,'#about')">About</a></li>
@@ -509,50 +508,76 @@ footer{background:var(--blue-dk);color:#fff}
 
 <!-- ══ MOBILE FULL-SCREEN MENU ══ -->
 <div class="mob-menu" id="mobileMenu">
-  <div class="mob-menu-top">
-   <div class="mobile-logo">
-    <div class="mobile-logo-circle">
-        <img src="logo.png" alt="Alisha English Coaching Centre">
+
+    <div class="mob-menu-top">
+
+        <div class="mobile-logo">
+            <div class="mobile-logo-circle">
+                <img src="logo.png" alt="Alisha English Coaching Centre">
+            </div>
+
+            <div class="mobile-logo-text">
+                <strong>Alisha English</strong>
+                <small>Coaching Center</small>
+            </div>
+        </div>
+
+        <button class="mob-menu-close" onclick="toggleMenu()">✕</button>
+
     </div>
 
-    <div class="mobile-logo-text">
-        <strong>Alisha English</strong>
-        <small>Coaching Center</small>
-    </div>
-</div>
-        <div style="font-family:'Poppins',sans-serif;font-weight:700;font-size:14px;color:var(--blue-dk)">Alisha English</div>
-        <div style="font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--blue)">Coaching Center</div>
-      </div>
-    </div>
-<div class="mobile-logo">
-    <div class="mobile-logo-circle">
-        <img src="logo.png" alt="Alisha English Coaching Centre">
+    <div class="mob-menu-body">
+        <a href="#home" onclick="sc(event,'#home');toggleMenu()">
+            <span>🏠</span> Home
+        </a>
+
+        <a href="#about" onclick="sc(event,'#about');toggleMenu()">
+            <span>ℹ️</span> About Us
+        </a>
+
+        <a href="#courses" onclick="sc(event,'#courses');toggleMenu()">
+            <span>📚</span> Courses
+        </a>
+
+        <a href="#vocabulary" onclick="sc(event,'#vocabulary');toggleMenu()">
+            <span>📖</span> Daily Vocabulary
+        </a>
+
+        <a href="#testimonials" onclick="sc(event,'#testimonials');toggleMenu()">
+            <span>⭐</span> Student Reviews
+        </a>
+
+        <a href="#faq" onclick="sc(event,'#faq');toggleMenu()">
+            <span>❓</span> FAQ
+        </a>
+
+        <a href="#contact" onclick="sc(event,'#contact');toggleMenu()">
+            <span>📍</span> Contact Us
+        </a>
+
+        <div class="divmenu"></div>
+
+        <a href="tel:9425656593" style="color:#1B4FD8">
+            <span>📞</span> 9425656593
+        </a>
     </div>
 
-    <div class="mobile-logo-text">
-        <strong>Alisha English</strong>
-        <small>Coaching Center</small>
-    </div>
-</div>
-    <button class="mob-menu-close" onclick="toggleMenu()">✕</button>
-  </div>
-  <div class="mob-menu-body">
-    <a href="#home" onclick="sc(event,'#home');toggleMenu()"><span>🏠</span> Home</a>
-    <a href="#about" onclick="sc(event,'#about');toggleMenu()"><span>ℹ️</span> About Us</a>
-    <a href="#courses" onclick="sc(event,'#courses');toggleMenu()"><span>📚</span> Courses</a>
-    <a href="#vocabulary" onclick="sc(event,'#vocabulary');toggleMenu()"><span>📖</span> Daily Vocabulary</a>
-    <a href="#testimonials" onclick="sc(event,'#testimonials');toggleMenu()"><span>⭐</span> Student Reviews</a>
-    <a href="#faq" onclick="sc(event,'#faq');toggleMenu()"><span>❓</span> FAQ</a>
-    <a href="#contact" onclick="sc(event,'#contact');toggleMenu()"><span>📍</span> Contact Us</a>
-    <div class="divmenu"></div>
-    <a href="tel:9425656593" style="color:#1B4FD8"><span>📞</span> 9425656593</a>
-  </div>
-  <div class="mob-menu-footer">
-    <a class="btn btn-gold" href="#enquiry" onclick="sc(event,'#enquiry');toggleMenu()" style="color:#fff">🎯 Enquire Now — 3 Days FREE Demo</a>
-    <a href="https://wa.me/919425656593" target="_blank" style="background:#22c55e;color:#fff;border-radius:12px;padding:13px;font-family:'Poppins',sans-serif;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;gap:8px">💬 WhatsApp Vikas Sir</a>
-  </div>
-</div>
+    <div class="mob-menu-footer">
+        <a class="btn btn-gold"
+           href="#enquiry"
+           onclick="sc(event,'#enquiry');toggleMenu()"
+           style="color:#fff">
+            🎯 Enquire Now — 3 Days FREE Demo
+        </a>
 
+        <a href="https://wa.me/919425656593"
+           target="_blank"
+           style="background:#22c55e;color:#fff;border-radius:12px;padding:13px;font-family:'Poppins',sans-serif;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;gap:8px">
+            💬 WhatsApp Vikas Sir
+        </a>
+    </div>
+
+</div>
 <!-- ══ HERO ══ -->
 <section id="home">
   <div class="hero-dots"></div>
@@ -598,13 +623,16 @@ footer{background:var(--blue-dk);color:#fff}
       <h2 class="sec-title">Dedicated to Your English Success</h2>
       <p class="sec-sub" style="margin:0 auto">Alisha English Coaching Center, guided by <strong style="color:var(--blue)">Vikas Sir</strong>, is dedicated to providing quality English education with a focus on strong grammar foundations, spoken English skills, exam preparation, and confidence-building. The institute helps students from school level to competitive examinations through effective teaching methods, regular practice, and individual attention.</p>
     </div>
-<div class="logo-box">
-    <img src="logo-2.png"
-         alt="Alisha English Coaching Centre Logo"
-         class="about-logo">
-</div>
-    <div class="about-grid">
-      <div class="reveal about-img-box">
+   <div class="about-grid">
+
+    <div class="reveal about-img-box">
+
+        <div class="logo-box">
+            <img src="logo.png"
+                 alt="Alisha English Coaching Centre Logo"
+                 class="about-logo">
+        </div>
+
         <div class="float-card">
           <div class="float-stars">⭐⭐⭐⭐⭐</div>
           <div class="float-txt">"Exceptional teaching by Vikas Sir"</div>
