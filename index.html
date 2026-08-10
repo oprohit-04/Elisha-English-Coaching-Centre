@@ -76,6 +76,12 @@ a{touch-action:manipulation}
 .hamburger span{width:22px;height:2px;background:#fff;border-radius:2px;transition:.3s;display:block}
 #nav.solid .hamburger span{background:var(--s700)}
 @media(max-width:860px){.nav-links,.nav-phone{display:none}.hamburger{display:flex}.nav-enq{display:none}}
+ .site-logo {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    border-radius: 50%;
+}
 
 /* Mobile full-screen menu */
 .mob-menu{display:none;position:fixed;inset:0;background:#fff;z-index:199;flex-direction:column;overflow-y:auto}
@@ -410,11 +416,12 @@ footer{background:var(--blue-dk);color:#fff}
 <nav id="nav">
   <div class="nav-in">
     <a class="logo" href="#home" onclick="sc(event,'#home')">
-      <div class="logo-orb">E</div>
-      <div>
-        <div class="logo-name">Alisha English</div>
-        <div class="logo-tag">Coaching Center</div>
-      </div>
+     <img src="logo.png" alt="Alisha English Coaching Centre Logo" class="site-logo">
+<div>
+    <div class="logo-name">Alisha English</div>
+    <div class="logo-tag">Coaching Center</div>
+</div>
+
     </a>
     <ul class="nav-links">
       <li><a href="#home" onclick="sc(event,'#home')">Home</a></li>
